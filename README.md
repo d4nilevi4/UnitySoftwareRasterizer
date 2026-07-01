@@ -4,7 +4,7 @@ A software rasterizer built inside [Unity][unity-link], where the whole triangle
 
 The ECS framework is [StaticECS][staticecs-link]. The rasterization inner loop is compiled with [Burst][burst-link] and scheduled through the Unity [Job System][jobs-link], operating on `NativeArray` color and depth buffers.
 
-<p style="text-align: center;">
+<p align="center">
   <img src="preview/software_rasterizer_preview.webp" alt="preview">
 </p>
 
