@@ -1,6 +1,6 @@
 # UnitySoftwareRasterizer
 
-A software rasterizer built inside [Unity][unity-link], where the whole triangle rasterization pipeline runs on the CPU. The GPU only blits the finished framebuffer to the screen. It's a research project exploring how a classic rasterizer maps onto a strictly ECS-based architecture.
+A software rasterizer built inside [Unity][unity-link], where the whole triangle rasterization pipeline runs on the CPU. The GPU only blits the finished framebuffer to the screen. It's a research project exploring how a classic rasterizer maps onto a strictly ECS-based architecture, inspired by [tinyrenderer][tinyrenderer-link] by Dmitry V. Sokolov.
 
 The ECS framework is [StaticECS][staticecs-link]. The rasterization inner loop is compiled with [Burst][burst-link] and scheduled through the Unity [Job System][jobs-link], operating on `NativeArray` color and depth buffers.
 
@@ -35,6 +35,7 @@ Open `src/UnitySoftwareRasterizer` in Unity, then open and play `Assets/Software
 - **Ray Gun** model by [XOIAL][raygun-author] on [Sketchfab][raygun-model], used under the [Sketchfab Free Standard License][sketchfab-license].
 
 [unity-link]: https://unity.com
+[tinyrenderer-link]: https://haqr.eu/tinyrenderer/
 [urp-link]: https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@17.5/manual/index.html
 [staticecs-link]: https://github.com/Felid-Force-Studios/StaticEcs
 [burst-link]: https://docs.unity3d.com/Packages/com.unity.burst@latest
