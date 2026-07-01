@@ -382,7 +382,7 @@ GameObject:
   - component: {fileID: 893873534}
   - component: {fileID: 893873533}
   m_Layer: 0
-  m_Name: Main
+  m_Name: Rasterizer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -479,7 +479,6 @@ MonoBehaviour:
   meshes:
   - {fileID: -1241817633868681334, guid: df2440a4f793447a296156d30bb8f10f, type: 3}
   - {fileID: 6992968308346416701, guid: df2440a4f793447a296156d30bb8f10f, type: 3}
-  - {fileID: 6930466765595573367, guid: df2440a4f793447a296156d30bb8f10f, type: 3}
   color:
     serializedVersion: 2
     rgba: 4292925887
