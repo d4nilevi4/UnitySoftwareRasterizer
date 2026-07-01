@@ -1,0 +1,18 @@
+{
+    "name": "SoftwareRasterizer.Demo",
+    "rootNamespace": "",
+    "references": [
+        "GUID:a576df67f76864cf78b07f1e7a8e36ba",
+        "GUID:69f70c24dedc41f49aaf4befce6fc0b8",
+        "GUID:75469ad4d38634e559750d17036d5f7c"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
